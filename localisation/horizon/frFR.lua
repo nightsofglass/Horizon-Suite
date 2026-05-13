@@ -23,7 +23,7 @@ addon.StandardFont = UNIT_NAME_FONT
 -- L["NAME_DISCORD"]                                          = "Discord"
 -- L["NAME_KO_FI"]                                            = "Ko-fi"
 -- L["NAME_PATREON"]                                          = "Patreon"
-L["NAME_GITHUB"]                                              = "GitLab"
+-- L["NAME_GITHUB"]                                           = "GitHub"
 -- L["NAME_CURSEFORGE"]                                       = "CurseForge"
 -- L["NAME_WAGO"]                                             = "Wago"
 -- L["NAME_TOMTOM"]                                           = "TomTom"
@@ -201,7 +201,7 @@ L["DASH_WELCOME_CONTRIBUTORS_BODY"]                           = [=[Thanks to eve
 -- L["DASH_WELCOME_SUPPORTERS_HEADING"]                       = "Supporters"
 -- L["DASH_WELCOME_SUPPORTERS_BODY"]                          = [=[Thank you to everyone who supports Horizon Suite through Ko-fi, Patreon, and other channels.]=]
 -- L["DASH_WELCOME_LOCALISATIONS_HEADING"]                    = "Localisations"
-L["DASH_WELCOME_LOCALISATIONS_BODY"]                          = [=[The addon UI is localised for:
+-- L["DASH_WELCOME_LOCALISATIONS_BODY"]                       = [=[The addon UI is localised for:
 -- 
 -- • German (deDE) — `localisation/horizon/deDE.lua`
 -- • English (enUS) — `localisation/horizon/enUS.lua`
@@ -440,9 +440,9 @@ L["AXIS_RESET_FIXED_POSITION_DEFAULT"]                        = "Réinitialiser 
 -- L["INSIGHT_FOCUS_DYNAMIC_IN_FIXED"]                        = "Dynamic Position for Focus Tooltips"
 -- L["INSIGHT_FOCUS_DYNAMIC_IN_FIXED_DESC"]                   = "When fixed anchor is on, Focus tracker tooltips still attach to the outer edge of the Horizon panel so they never cover the tracker."
 -- L["INSIGHT_CURSOR_OFFSET_X"]                               = "Cursor Offset X"
-L["INSIGHT_CURSOR_OFFSET_X_DESC"]                             = "Horizontal pixel offset from the default cursor tooltip position (cursor anchor only)."
+-- L["INSIGHT_CURSOR_OFFSET_X_DESC"]                             = "Horizontal pixel offset from the default cursor tooltip position (cursor anchor only)."
 -- L["INSIGHT_CURSOR_OFFSET_Y"]                               = "Cursor Offset Y"
-L["INSIGHT_CURSOR_OFFSET_Y_DESC"]                             = "Vertical pixel offset from the default cursor tooltip position (cursor anchor only)."
+-- L["INSIGHT_CURSOR_OFFSET_Y_DESC"]                             = "Vertical pixel offset from the default cursor tooltip position (cursor anchor only)."
 L["AXIS_TOOLTIP_BACKGROUND_COLOUR"]                           = "Couleur de fond des infobulles"
 L["AXIS_COLOUR_OF_TOOLTIP_BACKGROUND"]                        = "Couleur de fond des infobulles."
 L["AXIS_TOOLTIP_BACKGROUND_OPACITY"]                          = "Opacité du fond des infobulles"
@@ -1040,6 +1040,9 @@ L["FOCUS_CATEGORY_COLOUR_BAR"]                                = "Couleur de la c
 L["FOCUS_CHECKMARK_COMPLETED"]                                = "Coche pour les objectifs complétés"
 L["FOCUS_CURRENT_QUEST_CATEGORY"]                             = "Catégorie Quête en Cours"
 L["FOCUS_CURRENT_QUEST_WINDOW"]                               = "Fenêtre Quête en Cours"
+-- L["FOCUS_FOCUSED_QUEST_CATEGORY"]                          = "Focused Quest Category"
+-- L["FOCUS_FOCUSED_QUEST_CATEGORY_DESC"]                     = "Show the super-tracked quest in its own category."
+-- L["FOCUS_FOCUSED_QUEST_CATEGORY_TIP"]                      = "When on, the quest you have focused (super-tracked) is hoisted into a dedicated Focused Quest section. The category can be reordered like any other, so you can pin the focused quest to the top, bottom, or anywhere in the tracker."
 L["FOCUS_QUESTS_RECENT_PROGRESS_TOP"]                         = "Afficher en haut du panneau les quêtes avec le progrès le plus récent."
 L["FOCUS_RECENT_QUEST_SECONDS"]                               = "Secondes de progression récentes pour compter comme Quête en Cours (30–120)."
 L["FOCUS_QUEST_PROGRESSION_SECTION"]                          = "Les quêtes qui ont été avancées lors de la dernière minute s'affiche dans une section dédiée."
@@ -1340,6 +1343,7 @@ L["UI_AVAILABLE_IN_ZONE"]                                     = "DISPONIBLE DANS
 L["UI_EVENTS_IN_ZONE"]                                        = "ÉVÈNEMENTS DANS LA ZONE"
 L["UI_CURRENT_EVENT"]                                         = "ÉVÈNEMENT EN COURS"
 L["UI_CURRENT_QUEST"]                                         = "QUÊTE EN COURS"
+-- L["UI_FOCUSED_QUEST"]                                      = "FOCUSED QUEST"
 L["UI_CURRENT_ZONE"]                                          = "ZONE ACTUELLE"
 L["UI_CAMPAIGN"]                                              = "CAMPAGNE"
 -- L["UI_IMPORTANT"]                                          = "IMPORTANT"
@@ -1613,7 +1617,7 @@ L["VISTA_MOUSEOVER_BAR"]                                      = "Barre au survol
 L["VISTA_RIGHT_CLICK_PANEL"]                                  = "Panneau clic droit"
 L["VISTA_FLOATING_DRAWER"]                                    = "Tiroir flottant"
 -- L["VISTA_DRAWER_BUTTON_ICON"]                              = "Drawer Button Icon"
-L["VISTA_DRAWER_BUTTON_ICON_DESC"]                            = "Enter a Blizzard icon file ID or texture path. Leave blank to use the default drawer icon."
+-- L["VISTA_DRAWER_BUTTON_ICON_DESC"]                            = "Enter a Blizzard icon file ID or texture path. Leave blank to use the default drawer icon."
 -- L["VISTA_CHOOSE_ICON"]                                     = "Choose icon"
 -- L["VISTA_CHOOSE_DRAWER_ICON"]                              = "Choose Drawer Icon"
 L["VISTA_LOCK_DRAWER_BUTTON_POSITION"]                        = "Verrouiller la position du bouton tiroir"
@@ -1961,164 +1965,3 @@ L["M_BLOCK_WHENEVER_AN_ACTIVE_KEYSTONE"]                      = "Show the M+ blo
 -- L["ZONE_NAME_NEW_ZONE"]                                    = "Zone name still appears when entering a new zone."
 -- L["ZONE_TYPE_COLOURING"]                                   = "Zone Type Colouring"
 -- L["FOCUS_COMPLETED_CHECKMARK"]                             = "|TInterface\\\\Buttons\\\\UI-CheckBox-Check:12:12:0:0|t instead of green for done objectives."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
